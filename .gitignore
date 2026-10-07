@@ -1,0 +1,31 @@
+# Build Directories
+build/
+bin/
+abj/
+out/
+
+#C build artifacts
+*.o
+*.d
+*.a
+*.so
+
+#OS build artifacts
+*.elf
+*.bin
+*.img
+*.iso
+
+#Debug/Symbol files
+*.map
+*.lst
+
+#IDE Files
+.vs/
+.vscode/
+.idea/
+
+#Temporary Files
+*.tmp
+*.temp
+*~

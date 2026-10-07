@@ -1,0 +1,27 @@
+=== after boot ===
+ 0 |Welcome to MyOS v1.3
+ 1 |Booting subsystems...
+ 3 |[MEM] 32MB physical memory. 8192 frames.
+ 4 |[PAG] Paging enabled. Page directory: 0x00100000
+ 5 |[SYS] syscalls on int 0x80 ready.
+ 6 |[ATA] Drive detected.
+ 7 |[FS] FAT12 ready. 224 root entries.
+ 8 |[INIT] Found INIT.ELF, running init task...
+ 9 |[INIT] user init task running.
+10 |[INIT] init task exited with code 0
+12 |Type 'help' for a list of commands.
+14 |myos>
+=== after 'echo' ===
+ 0 |Welcome to MyOS v1.3
+ 1 |Booting subsystems...
+ 3 |[MEM] 32MB physical memory. 8192 frames.
+ 4 |[PAG] Paging enabled. Page directory: 0x00100000
+ 5 |[SYS] syscalls on int 0x80 ready.
+ 6 |[ATA] Drive detected.
+ 7 |[FS] FAT12 ready. 224 root entries.
+ 8 |[INIT] Found INIT.ELF, running init task...
+ 9 |[INIT] user init task running.
+10 |[INIT] init task exited with code 0
+12 |Type 'help' for a list of commands.
+14 |myos> echo
+16 |myos>
